@@ -1,0 +1,138 @@
+html {
+    /* height: 100%; */
+    margin: 0;
+}
+
+body {
+    /* height: 100%; */
+    margin: 0;
+    font-family: Geneva, Arial, sans-serif;
+    background-color: #415a77;
+    /* border: 30px solid #e0e1dd; */
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 7rem 6rem;
+}
+
+.name-links {
+    text-align: center;
+    width: 25%;
+    padding: 1rem;
+    background-color: #e0e1dd;
+    border-radius: 0.2rem;
+    box-shadow: 20px 15px #778da9;
+}
+
+h1 {
+    margin: 0;
+    padding: 2rem 0;
+    font-size: 2.5rem;
+}
+
+.name-links img {
+    width: 55px;
+    height: 45px;
+    padding: 0 2rem;
+}
+
+.intro-text {
+    width: 60%;
+    padding: 3rem;
+    font-size: 1.8rem;
+    border-radius: 0.2rem;
+    background-color: #e0e1dd;
+    box-shadow: 20px 15px #778da9;
+}
+
+.website {
+    margin: 6rem;
+}
+
+.website img {
+    width: 100%;
+    /* height: 30%; */
+}
+
+@media (max-width: 1400px) {
+    
+    .intro {
+        margin: 7rem 4rem;
+    }
+    
+    h1 {
+        padding: 1rem 0;
+        font-size: 2rem;
+    }
+
+    .name-links img {
+        width: 55px;
+        height: 45px;
+        padding: 0 1rem;
+    }
+    
+    .intro-text {
+        padding: 1.5rem;
+        font-size: 1.4rem;
+    }
+
+    .website {
+        margin: 5rem;
+    }    
+}
+
+@media (max-width: 980px) {
+    
+    .intro {
+        margin: 7rem 3rem;
+    }
+    
+    h1 {
+        padding: 0.5rem 0;
+        font-size: 1.4rem;
+    }
+
+    .name-links img {
+        width: 40px;
+        height: 35px;
+        padding: 0 0.5rem;
+    }
+    
+    .intro-text {
+        padding: 0.8rem;
+        font-size: 1.1rem;
+    }
+
+    .website {
+        margin: 3rem;
+    }    
+}
+
+@media (max-width: 760px) {
+    
+    .intro {
+        display: block;
+        margin: 4rem 2rem;
+    }
+
+    .name-links {
+        width: 90%;
+        margin: 3rem auto;
+        padding: 1rem;
+        box-shadow: 10px 10px #778da9;
+    }
+
+    .intro-text {
+        width: 90%;
+        margin: 3rem auto;
+        padding: 1rem;
+        box-shadow: 10px 10px #778da9;
+    }
+
+    .website {
+        margin: 2.5rem;
+    } 
+}
