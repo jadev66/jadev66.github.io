@@ -27,7 +27,7 @@ header {
     margin: 0 auto;
     overflow: hidden;
     white-space: nowrap;
-    border-right: 0.15em solid #000;
+    border-right: 0.15em solid #f9f9f9;
     animation: typewriter 7s steps(40, end), blink-cursor 1s step-end infinite;
 }
 
@@ -46,7 +46,7 @@ header {
         border-color: transparent;
     }
     50% {
-        border-color: #000;
+        border-color: #f9f9f9;
     }
 }
 
@@ -111,7 +111,7 @@ h1 {
         padding: 0 1rem;
     }
     
-    .typed-intro {
+    .animated-text {
         font-size: 1.6rem;
     }
     
@@ -128,20 +128,18 @@ h1 {
 @media (max-width: 800px) {
     
     header {
-        margin: 1.5rem;
+        margin: 2rem;
     }
     
     .animated-text {
-        padding: 0.2rem;
-        font-size: 0.5rem;
+        padding: 1.8rem;
+        font-size: 1.4rem;
     }
 
     .typed-intro {
         white-space: wrap;
-        padding: 1rem;
-        font-size: 1.2rem;
         border-right: none;
-        animation: typewriter 7s steps(40) 1s;
+        animation: typewriter 4s linear 1s;
     }
 
     .intro {
