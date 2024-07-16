@@ -8,49 +8,27 @@ body {
     background-color: #415a77;
 }
 
-.intro {
+header {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 7rem 6rem;
+    justify-content: center;
+    margin: 6rem;
 }
 
-.name-links {
-    text-align: center;
-    width: 25%;
-    padding: 2rem;
-    background-color: #e0e1dd;
+.animated-text {
+    padding: 3rem;
+    font-size: 2.3rem;
     border-radius: 0.2rem;
-    box-shadow: 20px 15px #778da9;
-}
-
-h1 {
-    margin: 0;
-    padding: 2rem 0;
-    font-size: 2.5rem;
-}
-
-.name-links img {
-    width: 55px;
-    height: 45px;
-    padding: 0 2rem;
-}
-
-.intro-text {
-    width: 50%;
-    padding: 3rem 4rem;
-    font-size: 1.8rem;
-    border-radius: 0.2rem;
-    background-color: #e0e1dd;
+    color: #f9f9f9;
+    background-color: #0d1b2a;
     box-shadow: 20px 15px #778da9;
 }
 
 .typed-intro {
+    margin: 0 auto;
     overflow: hidden;
     white-space: nowrap;
-    font-size: 2rem;
     border-right: 0.15em solid #000;
-    animation: typewriter 8s steps(40, end), blink-cursor 1s step-end infinite;
+    animation: typewriter 7s steps(40, end), blink-cursor 1s step-end infinite;
 }
 
 @keyframes typewriter {
@@ -70,6 +48,45 @@ h1 {
     50% {
         border-color: #000;
     }
+}
+
+.intro {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5rem;
+}
+
+.name-links {
+    text-align: center;
+    width: 25%;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 0.2rem;
+    box-shadow: 20px 15px #778da9;
+}
+
+h1 {
+    margin: 0;
+    padding: 2rem 0;
+    font-size: 2.5rem;
+    color: #0d1b2a;
+}
+
+.name-links img {
+    width: 55px;
+    height: 45px;
+    padding: 0 2rem;
+}
+
+.intro-text {
+    width: 50%;
+    padding: 3rem 4rem;
+    font-size: 1.8rem;
+    border-radius: 0.2rem;
+    color: #0d1b2a;
+    background-color: #f9f9f9;
+    box-shadow: 20px 15px #778da9;
 }
 
 .website {
@@ -110,6 +127,23 @@ h1 {
 
 @media (max-width: 800px) {
     
+    header {
+        margin: 1.5rem;
+    }
+    
+    .animated-text {
+        padding: 0.2rem;
+        font-size: 0.5rem;
+    }
+
+    .typed-intro {
+        white-space: wrap;
+        padding: 1rem;
+        font-size: 1.2rem;
+        border-right: none;
+        animation: typewriter 7s steps(40) 1s;
+    }
+
     .intro {
         display: block;
         margin: 4rem 2rem;
@@ -123,14 +157,12 @@ h1 {
         width: 90%;
         margin: 3rem auto;
         padding: 1rem;
-        /* box-shadow: 10px 10px #778da9; */
     }
 
     .intro-text {
         width: 90%;
         margin: 3rem auto;
         padding: 1rem;
-        /* box-shadow: 10px 10px #778da9; */
     }
 
     .website {
