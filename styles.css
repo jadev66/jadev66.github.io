@@ -50,12 +50,12 @@ h1 {
     width: 0;
     font-size: 2.2rem;
     border-right: 0.1em solid #000;
-    animation: typewriter 4s steps(20) 2s infinite alternate;
+    animation: typewriter 4s steps(20) 2s forwards;
 }
 
-.intro-text:hover .typed-intro {
+/* .intro-text:hover .typed-intro {
     animation-play-state: paused;
-}
+} */
 
 @keyframes typewriter {
     from {
