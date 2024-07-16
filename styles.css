@@ -57,6 +57,10 @@ h1 {
     animation-play-state: paused;
 }
 
+.intro-text:active .typed-intro {
+    animation-play-state: running;
+}
+
 @keyframes typewriter {
     from {
         width: 0%;
