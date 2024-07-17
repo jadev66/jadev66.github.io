@@ -27,8 +27,8 @@ header {
     margin: 0 auto;
     overflow: hidden;
     white-space: nowrap;
-    border-right: 0.15em solid #f9f9f9;
-    animation: typewriter 7s steps(40, end), blink-cursor 1s step-end infinite;
+    border-right: 0.15em solid transparent;
+    animation: typewriter 7s steps(40, end), blink-cursor 1s step-end 9;
 }
 
 @keyframes typewriter {
@@ -47,7 +47,7 @@ header {
     }
     50% {
         border-color: #f9f9f9;
-    }
+    }    
 }
 
 .intro {
@@ -90,11 +90,22 @@ h1 {
 }
 
 .website {
-    margin: 6rem;
+    margin: 6rem 6rem 1.5rem;
 }
 
 .website img {
     width: 100%;
+}
+
+.visit-link {
+    text-align: center;
+    margin-bottom: 12rem;
+}
+
+.visit-link a {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    color: #f9f9f9;
 }
 
 @media (max-width: 1200px) {
@@ -104,11 +115,11 @@ h1 {
     }
 
     h1 {
-        font-size: 1.8rem;
+        font-size: 1.7rem;
     }
     
     .name-links img {
-        padding: 0 1rem;
+        padding: 0 0.8rem;
     }
     
     .animated-text {
@@ -121,8 +132,12 @@ h1 {
     }
 
     .website {
-        margin: 4rem;
-    }    
+        margin: 4rem 4rem 1.5rem;
+    }
+    
+    .visit-link a {
+        font-size: 1.4rem;
+    }
 }
 
 @media (max-width: 800px) {
@@ -130,16 +145,27 @@ h1 {
     header {
         margin: 2rem;
     }
+
+    .name-links img {
+        padding: 0 0.8rem 1rem;
+    }
     
     .animated-text {
-        padding: 1.8rem;
-        font-size: 1.4rem;
+        width: 9rem;
+        padding: 0;
     }
 
     .typed-intro {
-        white-space: wrap;
-        border-right: none;
-        animation: typewriter 4s linear 1s;
+        visibility: hidden;
+        padding: 2.5rem;
+        text-align: center;
+    }
+
+    .intro-small {
+        visibility: visible;
+        text-align: center;
+        animation: typewriter 1s linear 1s;
+        animation: typewriter 7s steps(2, end), blink-cursor 1s step-end 3;
     }
 
     .intro {
@@ -154,7 +180,7 @@ h1 {
     .name-links {
         width: 90%;
         margin: 3rem auto;
-        padding: 1rem;
+        padding: 0 0.7rem;
     }
 
     .intro-text {
@@ -164,6 +190,10 @@ h1 {
     }
 
     .website {
-        margin: 2rem;
-    } 
+        margin: 3rem 2rem 0.8rem;
+    }
+    
+    .visit-link a {
+        font-size: 0.8rem;
+    }
 }
