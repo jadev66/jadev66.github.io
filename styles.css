@@ -11,16 +11,16 @@ body {
 header {
     display: flex;
     justify-content: center;
-    margin: 6rem;
+    margin: 5%;
 }
 
 .animated-text {
-    padding: 3rem;
-    font-size: 2.3rem;
+    padding: 2vw;
+    font-size: 2vw;
     border-radius: 0.2rem;
     color: #f9f9f9;
     background-color: #0d1b2a;
-    box-shadow: 20px 15px #778da9;
+    box-shadow: 0.8vw 0.8vw #778da9;
 }
 
 .typed-intro {
@@ -54,48 +54,48 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 5rem;
+    margin: 3%;
 }
 
 .name-links {
     text-align: center;
     width: 25%;
-    padding: 2rem;
+    padding: 1.4vw 0;
     background-color: #f9f9f9;
     border-radius: 0.2rem;
-    box-shadow: 20px 15px #778da9;
+    box-shadow: 0.8vw 0.8vw #778da9;
 }
 
 h1 {
     margin: 0;
-    padding: 2rem 0;
-    font-size: 2.5rem;
+    padding: 1.2vw 0;
+    font-size: 1.6vw;
     color: #0d1b2a;
 }
 
 .name-links img {
-    width: 55px;
-    height: 45px;
-    padding: 0 2rem;
+    width: 2.1vw;
+    height: 1.8vw;
+    padding: 0 1vw;
 }
 
 .intro-text {
     width: 50%;
-    padding: 3rem 4rem;
-    font-size: 1.8rem;
+    padding: 2% 3%;
+    font-size: 1.4vw;
     border-radius: 0.2rem;
     color: #0d1b2a;
     background-color: #f9f9f9;
-    box-shadow: 20px 15px #778da9;
+    box-shadow: 0.8vw 0.8vw #778da9;
 }
 
 .website {
-    margin: 6rem 6rem 1.5rem;
+    margin: 6% 7% 1%;
 }
 
 .website img {
     width: 100%;
-    max-height: 600px;
+    max-height: 800px;
 }
 
 .visit-link {
@@ -103,101 +103,11 @@ h1 {
 }
 
 .bottom {
-    margin-bottom: 10rem;
+    margin-bottom: 5%;
 }
 
 .visit-link a {
     text-transform: uppercase;
-    font-size: 1.6rem;
+    font-size: 1.2vw;
     color: #f9f9f9;
-}
-
-@media (max-width: 1200px) {
-    
-    .intro {
-        margin: 7rem 3rem;
-    }
-
-    h1 {
-        font-size: 1.7rem;
-    }
-    
-    .name-links img {
-        padding: 0 0.8rem;
-    }
-    
-    .animated-text {
-        font-size: 1.6rem;
-    }
-    
-    .intro-text {
-        padding: 1.5rem;
-        font-size: 1.3rem;
-    }
-
-    .website {
-        margin: 4rem 4rem 1.5rem;
-    }
-    
-    .visit-link a {
-        font-size: 1.4rem;
-    }
-}
-
-@media (max-width: 800px) {
-    
-    header {
-        margin: 2rem;
-    }
-
-    .name-links img {
-        padding: 0 0.8rem 1rem;
-    }
-    
-    .animated-text {
-        width: 9rem;
-        padding: 0;
-    }
-
-    .typed-intro {
-        visibility: hidden;
-        padding: 2.5rem;
-        text-align: center;
-    }
-
-    .intro-small {
-        visibility: visible;
-        text-align: center;
-        animation: typewriter 1s linear 1s;
-        animation: typewriter 7s steps(2, end), blink-cursor 1s step-end 3;
-    }
-
-    .intro {
-        display: block;
-        margin: 4rem 2rem;
-    }
-
-    h1 {
-        font-size: 2rem;
-    }
-    
-    .name-links {
-        width: 90%;
-        margin: 3rem auto;
-        padding: 0 0.7rem;
-    }
-
-    .intro-text {
-        width: 90%;
-        margin: 3rem auto;
-        padding: 1rem;
-    }
-
-    .website {
-        margin: 3rem 2rem 0.8rem;
-    }
-    
-    .visit-link a {
-        font-size: 0.8rem;
-    }
 }
