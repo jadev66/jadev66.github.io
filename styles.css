@@ -11,7 +11,7 @@ body {
 header {
     display: flex;
     justify-content: center;
-    margin: 5%;
+    margin: 8% 6%;
 }
 
 .animated-text {
@@ -90,7 +90,7 @@ h1 {
 }
 
 .website {
-    margin: 6% 7% 1%;
+    margin: 9% 6% 0;
 }
 
 .website img {
@@ -100,6 +100,7 @@ h1 {
 
 .visit-link {
     text-align: center;
+    margin: 1em 0;
 }
 
 .bottom {
@@ -110,4 +111,9 @@ h1 {
     text-transform: uppercase;
     font-size: 1.2vw;
     color: #f9f9f9;
+}
+
+.nametag {
+    text-align: center;
+    font-size: 0.8vw;
 }
