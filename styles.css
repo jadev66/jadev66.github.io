@@ -129,3 +129,13 @@ h2 {
     text-align: center;
     font-size: 0.8vw;
 }
+
+@media screen and (max-width: 620px) { 
+    header {
+        margin: 10% 6%;
+    }
+    
+    .visit-link {
+        padding: 0.1rem 0;
+    }
+}
