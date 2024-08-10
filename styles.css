@@ -11,14 +11,14 @@ body {
 header {
     display: flex;
     justify-content: center;
-    margin: 8% 6%;
+    margin: 6%;
 }
 
 .animated-text {
-    padding: 2vw;
+    padding: 2vw 7vw;
     font-size: 2vw;
     border-radius: 0.2rem;
-    color: #f9f9f9;
+    color: #fff;
     background-color: #0d1b2a;
     box-shadow: 0.8vw 0.8vw #778da9;
 }
@@ -52,16 +52,16 @@ header {
 
 .intro {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    margin: 3%;
+    margin: 3% 7%;
 }
 
 .name-links {
     text-align: center;
     width: 25%;
     padding: 1.4vw 0;
-    background-color: #f9f9f9;
+    background-color: #fff;
     border-radius: 0.2rem;
     box-shadow: 0.8vw 0.8vw #778da9;
 }
@@ -70,7 +70,6 @@ h1 {
     margin: 0;
     padding: 1.2vw 0;
     font-size: 1.6vw;
-    color: #0d1b2a;
 }
 
 .name-links img {
@@ -79,38 +78,51 @@ h1 {
     padding: 0 1vw;
 }
 
+#picture {
+    width: 12vw;
+    height: 11vw;
+}
+
 .intro-text {
     width: 50%;
-    padding: 2% 3%;
-    font-size: 1.4vw;
+    padding: 2% 6%;
+    font-size: 1.5vw;
     border-radius: 0.2rem;
-    color: #0d1b2a;
-    background-color: #f9f9f9;
+    background-color: #fff;
     box-shadow: 0.8vw 0.8vw #778da9;
 }
 
 .website {
-    margin: 8% 6% 0;
+    padding: 6% 8% 0;
 }
 
 .website img {
+    display: block;
     width: 100%;
-    max-height: 800px;
+    height: auto;
 }
 
 .visit-link {
     text-align: center;
-    margin: 1em 0;
+    padding: 0.5rem 0;
 }
 
 .bottom {
-    margin-bottom: 5%;
+    margin-bottom: 6%;
 }
 
 .visit-link a {
     text-transform: uppercase;
     font-size: 1.2vw;
-    color: #f9f9f9;
+    color: #fff;
+}
+
+h2 {
+    padding: 15% 0;
+    font-size: 3vw;
+    text-align: center;
+    border: 3px solid #000;
+    border-radius: 0.2em;
 }
 
 .nametag {
